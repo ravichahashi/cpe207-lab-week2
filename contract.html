@@ -7,7 +7,7 @@
 <html>
 
 <head>
-    <title>Read Only by HTML5 UP</title>
+    <title>Portfolio WEEK 3</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -58,7 +58,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta totam nostrum,
                         eveniet nobis illum sapiente id explicabo magnam autem, aliquid, adipisci pariatur sint vel
                         temporibus ex quo suscipit exercitationem.</p>
-                    <form method="post" action="#">
+                    <form id="inputForm" method="post" action="#">
                         <div class="row gtr-uniform">
                             <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name"
                                     placeholder="Name" /></div>
@@ -76,6 +76,29 @@
                             </div>
                         </div>
                     </form>
+
+                    <section>
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Subject</th>
+                                        <th>Message</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="inputList"></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </section>
+
                 </div>
             </section>
 
@@ -98,6 +121,8 @@
     </div>
 
     <!-- Scripts -->
+    <script src="app.js"></script>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
