@@ -113,7 +113,7 @@ class Store {
 }
 
 // 4. Event: Display Books
-document.addEventListener('DOMContentLoaded', UI.displayInputs);
+document.addEventListener('INPUTContentLoaded', UI.displayInputs);
 
 // 5. Event: Add a Book
 document.querySelector('#inputForm').addEventListener('submit', (e) => {
